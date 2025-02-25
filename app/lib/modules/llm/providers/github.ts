@@ -21,6 +21,9 @@ export default class GithubProvider extends BaseProvider {
     { name: 'gpt-4-turbo', label: 'GPT-4 Turbo', provider: 'Github', maxTokenAllowed: 8000 },
     { name: 'gpt-4', label: 'GPT-4', provider: 'Github', maxTokenAllowed: 8000 },
     { name: 'gpt-3.5-turbo', label: 'GPT-3.5 Turbo', provider: 'Github', maxTokenAllowed: 8000 },
+    { name: 'DeepSeek-R1', label: 'DeepSeek R1', provider: 'Github', maxTokenAllowed: 8000 },  
+    { name: 'Phi-4', label: 'Phi-4', provider: 'Github', maxTokenAllowed: 8000 },  
+    { name: 'Llama-3.3-70B-Instruct', label: 'LLaMA 3.3 70B Instruct', provider: 'Github', maxTokenAllowed: 8000 },
   ];
 
   getModelInstance(options: {
